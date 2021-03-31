@@ -29,8 +29,12 @@ var obj = {
 }
 console.log(obj.simple(9)) // called by its name and associated object
 
+// Imperative code - Telling the compiler how to run the code
+var array = [1,2,3]
+for (let i=0; i < array.length; i++){
+    console.log(array[i])
+}
 
-
-
-
-
+// Declarative code - Telling the compiler what it needs to do
+var newArray = [4,5,6]
+newArray.forEach((element)=> console.log(element))
