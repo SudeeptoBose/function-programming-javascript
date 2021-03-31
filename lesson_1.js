@@ -12,7 +12,22 @@ var newCalculate = (value, newPercentValue)=>{
 }
 console.log(newCalculate(5, newPercentValue = 5))
 
+// A simple function
 
+var simple = (a) =>{
+    return a;
+}
+
+console.log(simple(5)) // called by its name
+
+// A simple method
+
+var obj = {
+    simple : (a) => {
+        return a;
+    }
+}
+console.log(obj.simple(9)) // called by its name and associated object
 
 
 
