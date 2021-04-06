@@ -1,0 +1,3 @@
+simpleFunction = () =>{
+    alert("Hello")
+}
