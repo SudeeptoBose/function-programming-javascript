@@ -6,3 +6,6 @@ var simpleFn = function simpleFn() {
 return "Simple Function";
 };
 simpleFn();
+
+// Example of how the return & function keyword is not required
+var newSimpleFn = () => "Simple Function"
