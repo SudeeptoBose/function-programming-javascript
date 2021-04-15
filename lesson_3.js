@@ -7,7 +7,7 @@ for(i=0;i<array.length;i++){
 
 
 // Iterate using forEach
-
+// This book has issues
 const forEach = (array, fn) => {
     let i;
     for(i = 0; i < array.length; i++){
